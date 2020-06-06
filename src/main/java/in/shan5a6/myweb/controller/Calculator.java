@@ -2,6 +2,7 @@ package in.shan5a6.myweb.controller;
 /*
  * 
  */
+
 public class Calculator {
 	/*
 	 * @param i

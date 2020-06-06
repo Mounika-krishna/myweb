@@ -3,6 +3,7 @@
   # sudo permission
   become: true
 
+
   vars:
     tomcat_folder: bin
     tomcat_path: "/root/tomcat8/{{ tomcat_folder }}"
