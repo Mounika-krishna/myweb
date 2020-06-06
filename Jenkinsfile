@@ -10,6 +10,7 @@ pipeline {
         CANARY_REPLICAS = 0
     }
     stages {
+	    /*
         stage('Build') {
             steps {
               script {
@@ -18,6 +19,7 @@ pipeline {
               
             }
         }
+	*/
         stage('Build Docker Image') {
             when {
                 branch 'master'
